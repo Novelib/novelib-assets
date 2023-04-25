@@ -1,0 +1,113 @@
+/* 背景图 */
+.hope-ui-light{
+    background-image: url("https://pi.loili.com/2023/7f89ebf044a7fd267923eb5e9553c62d.jpg") !important;
+    background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
+}
+
+/* 夜间背景图 */
+.hope-ui-dark {
+    background-image: url("https://pi.loili.com/2023/61598b93a4737acd789da6f8c8c1fa47.jpg") !important;
+    background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
+}
+
+/* 字体 */
+*{font-family:LXGW WenKai}
+*{font-weight:bold}
+body {font-family: LXGW WenKai;}
+
+/* 主列表透明 */
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* README 透明 */
+.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* 主列表夜间模式透明 */
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css{
+    background-color:rgb(0 0 0 / 50%) !important;
+}
+/* README 夜间模式透明 */
+.hope-c-PJLV.hope-c-PJLV-iiuDLME-css{
+    background-color:rgb(0 0 0 / 50%) !important;
+}
+/* 代码块透明 */
+.hope-ui-light pre{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+/* 夜间模式代码块透明 */
+.hope-ui-dark pre {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+dibu {
+    border-top: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.App {
+    min-height: 85vh;
+}
+
+.table {
+    margin: auto;
+}
+
+/* 去掉底部 */
+.footer {
+    display: none !important;
+}
+
+/* 渐变背景CSS */
+#canvas-basic {
+	  position: fixed;
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	z-index: -999;
+}
+
+/* 搜索主体毛玻璃 */
+.hope-ui-light .hope-c-PJLV-iiBaxsN-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索栏输入框毛玻璃 */
+.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/* 搜索按钮毛玻璃 */
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+   padding: var(--hope-space-1)!important;
+}
+/* 夜间模式搜索主体毛玻璃 */
+.hope-ui-dark .hope-c-PJLV-iiBaxsN-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 夜间模式搜索栏毛玻璃 */
+.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/* 夜间模式搜索按钮毛玻璃 */
+.hope-ui-dark .hope-c-PJLV-ikEIIxw-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+    padding: var(--hope-space-1)!important;
+}
